@@ -73,6 +73,8 @@ namespace IPTables_Parser
 
             Console.WriteLine("Press Enter to exit...");
             Console.ReadLine();
+            workbook.Close();
+            app.Quit();
         }
     }
 
